@@ -5,12 +5,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Add
+- Add doctrine/cache to save aws credential as cache to composer requirement
+- Add function `getAwsDefaultConfigDto` in `AwsHelper`
 ### Changed
 - Update `mailgun/mailgun-php` package
 - Remove `\Config` usage in `Email` namespace
 - Change `EmailService` usage 
 - Fix subgroup elapsed time write
   - Change variable names
+- Update function `getAwsConfigDto` using cached credential
 
 ## [1.0.9] - 2020-05-07
 ### Changed
